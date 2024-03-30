@@ -5474,6 +5474,12 @@ CONFIG_TRUSTY_VIRTIO=y
 CONFIG_TRUSTY_VIRTIO_IPC=y
 
 #
+# KernelSU
+#
+CONFIG_KSU=y
+# CONFIG_KSU_DEBUG is not set
+
+#
 # Firmware Drivers
 #
 CONFIG_ARM_PSCI_FW=y
